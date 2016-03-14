@@ -25,9 +25,9 @@ $ ./[Executable File Name] [Command line switches]
 The following command line switches print its corresponding
 type of output to the screen:
 
-  -l  The lexeme list created
-  -a 	The disassembled code from the code generator
-  -v 	The virtual machine execution stack trace
+	  -l  The lexeme list created
+	  -a 	The disassembled code from the code generator
+	  -v 	The virtual machine execution stack trace
 
 Make sure the test files are in the same directory as the source files (or in the home directory for OSX).
 
@@ -79,8 +79,14 @@ This would print out all 3: lexeme list, generated code, and stack frame, to the
 
 You can compile and run your program, using the commands below: 
 
-To compile: gcc –o <runfile> <filename.c>
-To Run: ./<runfile>
+To compile: 
+
+$ gcc –o [Executable File Name] *.c
+
+
+To Run: 
+
+$ ./[Executable File Name]
 
 Then, the program will prompt you with what input.txt you wish to run. Examples would be "input.txt" or "input1.txt" etc.
 
