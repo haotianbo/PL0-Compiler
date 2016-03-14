@@ -1,5 +1,3 @@
-NEW
-
 Have the folder compiler on your desktop with data.h, main.c, lex.c, parser.c, vm.c, and all test input files in it.
 
 Open Terminal and do this:
