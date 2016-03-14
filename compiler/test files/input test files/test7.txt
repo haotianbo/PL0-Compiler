@@ -1,0 +1,10 @@
+var foo;
+begin
+	foo := /*here is a comment*/ 1;
+	/*comments
+	can
+	span
+	multiple
+	lines*/
+	write foo;
+end.

@@ -1,0 +1,6 @@
+var x, y;
+begin
+	read y;
+	x := y + 56;
+	write x;
+end.

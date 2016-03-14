@@ -1,0 +1,42 @@
+const n = 13;
+var i,h;
+	procedure sub;
+	const k = 7;
+	var j,h;
+		begin 
+			j:=n;
+			i:=1;
+			h:=k;
+			write j;
+			write i;
+			write h;
+			write k;
+			write n;
+		end;
+	procedure add;
+	const l = 6;
+	var j,h,v;
+		begin 
+			j:=3;
+			i:=4;
+			h:=5;
+			v:=l;
+			write j;
+			write i;
+			write h;
+			write v;
+			write l;
+			write n;
+		end;
+begin
+	i:=3;
+	h:=0;
+	write i;
+	write h;
+	write n;
+	call sub;
+	call add;
+	write i;
+	write h;
+	write n;
+end.

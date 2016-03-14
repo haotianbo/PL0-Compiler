@@ -1,0 +1,20 @@
+var x, y;
+begin
+	read x;
+	read y;
+	if x=2 then
+		y:=2
+	else
+		x := y + 56;
+
+	write x;
+	write y;
+	
+	if y<3 then
+		y:=3
+	else
+		y := 400 / 2;
+
+	write x;
+	write y;
+end.

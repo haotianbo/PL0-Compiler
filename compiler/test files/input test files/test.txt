@@ -1,0 +1,27 @@
+var a, b;
+procedure first;
+	var a,b;
+	procedure second;
+		var a,b;
+			begin
+				a:=5;
+				b:=6;
+				write a;
+				write b;
+			end;
+	begin
+		a:=3;
+		b:=4;
+		write a;
+		write b;
+		call second;
+	end;
+begin
+	a:=1;
+	b:=2;
+	write a;
+	write b;
+	call first;
+	write a;
+	write b;
+end.
