@@ -4,7 +4,7 @@ This project simulates a full compiler for the PL/0 programming language, writte
 
 The code is based on a class project from my Systems Software class when I was in college.
 
-See HW1-VirtualMachine.doc, W2-LexScanner.doc, and HW3-ParserandCodeGenerator.doc for more information.
+See HW1-VirtualMachine.doc, HW2-LexScanner.doc, and HW3-ParserandCodeGenerator.doc for more information.
 
 ## PL-0-Compiler
 A PL/0 compiler with lexical analyzer, syntax analyzer and machine code generator with a PM/0 virtual machine containing features designed to support function and procedure calls with parameter passing in C.
