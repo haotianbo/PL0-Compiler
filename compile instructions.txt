@@ -7,24 +7,5 @@ Open Terminal and do this:
 cd Desktop
 cd compiler
 cc - o compile main.c lex.c parser.c vm.c
-./compile -l -a -v
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-OLD
-
-cd Desktop
-cd compiler
-cc -o compiler main.c lex.c parser.c vm.c
-./ compiler (for testing)
-./ compiler lexinput1.txt (for running through whole program using test files)
-./ compiler lexinput1.txt -l -a -v (for running through whole program when finished)
-
-could do:
-
-cd Desktop
-cd compiler
-sh build.sh
-./ compiler (for testing)
-./ compiler lexinput1.txt (for running through whole program using test files)
-./ compiler lexinput1.txt -l -a -v (for running through whole program when finished)
- 
+./compile (for running through whole program using test files)
+./compile -l -a -v (for running through whole program with flags printed to terminal)
