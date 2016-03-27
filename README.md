@@ -31,6 +31,10 @@ type of output to the screen:
 
 Make sure the test files are in the same directory as the source files (or in the home directory for OSX).
 
+## YouTube
+
+YouTube:
+
 ##README
 
 The project folder should be named "compiler" Inside you should find the following: 
@@ -105,7 +109,3 @@ write will write things to screen right after the program prompts the user for t
 ******************************************************************************************
 
 This compiler project follows the specifications and EBNF tree specified in the HW3 doc from COP 3402 Summer 2013. PL/0 is a simpler programming language than Pascal. It serves as an example of how to construct a compiler. This compiler is a recursive descent parser with a simple syntax. The grammar can be viewed in the EBNF tree in the HW3 doc. 
-
-## YouTube
-
-YouTube:
