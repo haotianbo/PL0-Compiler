@@ -329,7 +329,7 @@ void statement(int lev, int *ptx, FILE* ifp, instruction* code, symbol* table) {
     //write needs to write
     else if (token == writesym) {
         token = getNextToken(ifp);
-        gexpression(lev, ptx, ifp, code, table);
+        expression(lev, ptx, ifp, code, table);
         emit(9,0,1, code); // 9 is SIO1 for op, 0 is for L and 1 for M, write the top stack element to the screen
     }
     
