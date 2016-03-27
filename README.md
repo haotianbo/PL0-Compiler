@@ -25,7 +25,7 @@ $ ./[Executable File Name] [Command line switches]
 The following command line switches print its corresponding
 type of output to the screen:
 
-	  -l  The lexeme list created
+	  -l  	The lexeme list created
 	  -a 	The disassembled code from the code generator
 	  -v 	The virtual machine execution stack trace
 
@@ -33,7 +33,7 @@ Make sure the test files are in the same directory as the source files (or in th
 
 ## YouTube
 
-YouTube:
+YouTube: 
 
 ##README
 
