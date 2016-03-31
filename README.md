@@ -12,7 +12,7 @@ A PL/0 compiler with lexical analyzer, syntax analyzer and machine code generato
 ## Usage
 Copy the project using `git clone  https://github.com/cwalk/PL0-Compiler`
 
-Navigate to the directory containing the source code and the test files. `cd compiler`
+Navigate to the directory containing the source code and the test files: `cd compiler`
 
 - Run the following command to compile:
 
